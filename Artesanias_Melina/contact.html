@@ -66,10 +66,10 @@
                                  <a class="nav-link" href="about.html">Nosotros</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="glasses.html">Alpargatas</a>
+                                 <a class="nav-link" href="alpargatas.html">Alpargatas</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="shop.html">Redes Sociales</a>
+                                 <a class="nav-link" href="socialnetworks.html">Redes Sociales</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="contact.html">Contacto</a>
@@ -95,23 +95,17 @@
                   <form id="request" class="main_form">
                      <div class="row">
                         <div class="col-md-12 ">
-                           <h3>Contact Us</h3>
-                        </div>
-                        <div class="col-md-12 ">
-                           <input class="contactus" placeholder="Name" type="type" name="Name"> 
+                           <h3>Contáctanos</h3>
                         </div>
                         <div class="col-md-12">
-                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number"> 
+                           <h2>Escríbenos para realizar tus compras!</h2>
+                           <p>Éstas son nuestras lineas de WhatsApp:</p>
+                           <button class="send_btn" href="https://wa.me/573225335544">WhatsApp 1</button>
                         </div>
                         <div class="col-md-12">
-                           <input class="contactus" placeholder="Email" type="type" name="Email">                          
+                           <button class="send_btn" href="https://wa.me/573175126585">WhatsApp 2</button>
                         </div>
-                        <div class="col-md-12">
-                           <input class="contactusmess" placeholder="Message" type="type" Message="Name">
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">Send</button>
-                        </div>
+                        <h2>Puedes escribir a la linea de atención que gustes, nuestros asesores estarán encantados de atenderte.</h2>
                      </div>
                   </form>
                </div>
@@ -119,10 +113,13 @@
          </div>
          <div class="container-fluid">
             <div class="map_section">
-               <div id="map">
-               </div>
+                <div id="map" style="text-align: right;">
+                    <!-- Aquí estaba el mapa de Google, pero ahora vamos a poner una imagen -->
+                    <img src="images/whipala.PNG" alt="Mi imagen" style="display: block; margin-left: auto; margin-right: 0;" />
+                </div>
             </div>
-         </div>
+        </div>
+        
       </div>
       </div>
       <!-- end contact section -->
@@ -161,24 +158,6 @@
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
       <script>
-         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-         // Australia.
-         function initMap() {
-           var map = new google.maps.Map(document.getElementById('map'), {
-             zoom: 11,
-             center: {lat: 40.645037, lng: -73.880224},
-             });
-         
-         var image = 'images/maps-and-flags.png';
-         var beachMarker = new google.maps.Marker({
-             position: {lat: 40.645037, lng: -73.880224},
-             map: map,
-             icon: image
-           });
-         }
       </script>
-      <!-- google map js -->
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
-      <!-- end google map js --> 
    </body>
 </html>
