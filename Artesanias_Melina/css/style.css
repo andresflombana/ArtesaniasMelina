@@ -39,7 +39,7 @@ html {
 }
 
 body {
-     color: #666666;
+     color: #000000;
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
@@ -178,7 +178,7 @@ img {
 }
 
 .form-control:focus {
-     border-color: #ffffff !important;
+     border-color: #0000 !important;
      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
 }
 
@@ -273,14 +273,14 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #03cafc;
+     color: #000000;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #03cafc;
+     color: #8B4513;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -288,7 +288,7 @@ button {
 }
 
 .login_btn a {
-     background: #03cafc;
+     background: #000000;
      padding: 9px 32px !important;
      display: inline;
      border-radius: 20px;
@@ -301,7 +301,7 @@ button {
 }
 
 .sea_icon a {
-     color: #8c8c8c !important;
+     color: #000000 !important;
 }
 
 .header {
@@ -330,7 +330,7 @@ button {
 }
 
 .text-bg h1 {
-     color: #070404;
+     color: #8B4513;
      font-size: 60px;
      line-height: 76px;
      padding-bottom: 45px;
@@ -374,8 +374,8 @@ button {
 #banner1 .carousel-control-prev:focus,
 #banner1 .carousel-control-next:focus {
      background: transparent;
-     border: #03cafc solid 2px;
-     color: #03cafc;
+     border: #8B4513 solid 2px;
+     color: #8B4513;
 }
 
 #banner1 a.carousel-control-prev {
@@ -423,7 +423,7 @@ button {
 }
 
 .read_more:hover {
-     background: #03cafc;
+     background: #8B4513;
      color: #fff !important;
      transition: ease-in all 0.5s;
 }
@@ -503,13 +503,13 @@ button {
 }
 
 .blu {
-     color: #03cafc;
+     color: #131215;
      text-transform: initial;
 }
 
 .glasses .glasses_box {
      text-align: center;
-     border: #555556 solid 1px;
+     border: #ffffff solid 1px;
      border-radius: 2px;
      padding: 120px 0px 30px 0px;
      margin-bottom: 30px;
@@ -527,7 +527,7 @@ button {
 }
 
 .glasses .glasses_box p {
-     color: #2a2a2c;
+     color: #000000;
      font-size: 18px;
      line-height: 28px;
      font-weight: 400;
@@ -611,22 +611,28 @@ button {
 /** clients section **/
 
 .clients {
+     display: center;
      padding: 90px 0 70px 0;
 }
 
-.clients .titlepage {
-     text-align: center;
-     padding-bottom: 60px;
+.clients .titlepage h2{
+     font-size: 35px;
+     color: #000000;
+     line-height: 45px;
+     font-weight: bold;
+     padding: 0;
 }
 
 .clients .titlepage p {
-     color: #2a2a2c;
+     color: #000000;
+     display: flex;
      font-size: 17px;
      line-height: 29px;
      padding-top: 10px;
 }
 
 .clients_box h3 {
+     text-align: center;
      color: #2a2a2c;
      font-size: 26px;
      line-height: 30px;
@@ -635,6 +641,7 @@ button {
 }
 
 .clients_box p {
+     text-align: center;
      color: #2a2a2c;
      font-size: 17px;
      line-height: 30px;
@@ -648,14 +655,15 @@ button {
 .clients_box {
      border: #606060 solid 1px;
      padding: 40px 32px 40px 0px;
-     float: left;
-     text-align: left;
+     float: center;
+     text-align: center;
      margin-left: 89px;
 }
 
 .clients_box figure {
      margin: 0;
-     float: left;
+     text-align: center;
+     float: center;
      margin-left: -102px;
      padding-right: 30px;
 }
@@ -773,7 +781,7 @@ button {
 /** footer **/
 
 .footer {
-     background: #252525;
+     background: rgb(25, 107, 4);
      padding-top: 90px;
      text-align: center;
      font-family: 'Roboto', sans-serif;
@@ -806,7 +814,7 @@ ul.location_icon li a {
 }
 
 .copyright p {
-     color: #292929;
+     color: #000000;
      font-size: 18px;
      line-height: 22px;
      text-align: center;
@@ -815,11 +823,11 @@ ul.location_icon li a {
 }
 
 .copyright a {
-     color: #292929;
+     color: #000000;
 }
 
 .copyright a:hover {
-     color: #03cafc;
+     color: #fc0303;
 }
 
 
@@ -830,7 +838,7 @@ ul.location_icon li a {
 
 .position_head .header {
      position: inherit;
-     background: #03cafc;
+     background: #F5F5DC;
 }
 
 .position_head .glasses,

@@ -12,9 +12,9 @@ El propósito del sitio web de **Artesanías Melina** es exhibir y vender produc
 
 ---
 
-## Desarrollo de Sitio Web con Bootstrap, CSS y HTML
+## Desarrollo de Sitio Web con JavaScript, CSS y HTML
 
-- **Bootstrap:** Framework de CSS para el diseño del sitio.
+- **JavaScript:** Lenguaje utilizado para agregar interactividad y dinamismo.
 - **CSS:** Lenguaje de estilo utilizado para personalizar el diseño.
 - **HTML:** Lenguaje de marcado para la estructura del sitio.
 
