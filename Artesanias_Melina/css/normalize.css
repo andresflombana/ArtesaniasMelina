@@ -266,7 +266,7 @@ button,
 html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button; /* 2 */
+  background-color: #e0e0e0;
 }
 
 /**
@@ -352,7 +352,7 @@ textarea {
  */
 
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
+  background-color: #e0e0e0;
   outline-offset: -2px; /* 2 */
 }
 

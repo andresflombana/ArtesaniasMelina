@@ -265,11 +265,11 @@ select {
   text-transform: none;
 }
 
-button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
+button:hover,
+html [type="button"]:hover,
+[type="reset"]:hover,
+[type="submit"]:hover {
+  background-color: #e0e0e0;
 }
 
 button::-moz-focus-inner,
@@ -290,7 +290,7 @@ input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
-  -webkit-appearance: listbox;
+  background-color: #e0e0e0;
 }
 
 textarea {
@@ -328,7 +328,7 @@ progress {
 
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: none;
+  background-color: #e0e0e0;
 }
 
 [type="search"]::-webkit-search-cancel-button,
@@ -5292,7 +5292,7 @@ button.close {
   padding: 0;
   background-color: transparent;
   border: 0;
-  -webkit-appearance: none;
+  background-color: #e0e0e0;
 }
 
 .modal-open {
